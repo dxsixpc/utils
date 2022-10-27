@@ -1,0 +1,10 @@
+build
+dist
+LICENSE
+CNAME
+.eslintignore
+.gitignore
+.prettierignore
+.eslintcache
+
+

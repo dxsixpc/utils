@@ -1,0 +1,55 @@
+{
+  "name": "@dxsixpc/utils",
+  "version": "0.0.6",
+  "author": "dxsixpc",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "homepage": "https://github.com/dxsixpc/dxsixpc.github.io/tree/master/packages/utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxsixpc/dxsixpc.github.io/tree/master/packages/utils.git"
+  },
+  "keywords": [
+    "rollup",
+    "react",
+    "utils"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "axios": "^1.1.3",
+    "lodash": ">=4.17.21",
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "crypto-js": "^4.1.1",
+    "immer": "^9.0.16",
+    "joi": "^17.6.0",
+    "react": ">=16",
+    "react-dom": ">=16",
+    "redux": "^4.2.0"
+  },
+  "devDependencies": {
+    "@dxsixpc/configs": "^0.0.10",
+    "@types/crypto-js": "^4.1.1",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^18.11.7",
+    "eslint": "^8.26.0",
+    "prettier": "^2.7.1",
+    "rollup": "^3.2.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "files": [
+    "dist"
+  ]
+}
